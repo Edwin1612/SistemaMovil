@@ -15,9 +15,11 @@
   {
    if($_SESSION["tipoUsuario"]==0)
    {
+     //Si se es administrador por el tipo de usuario 0 se envia a la carpeta administrador
      header('Location: administrador/index.php?action=inicio0');
    }else
    {
+      //En caso contrario se envia a sistema donde sera la parte movil
       header('Location: Sistema/index.php?action=inicio1');
    }
    

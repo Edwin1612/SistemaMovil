@@ -3,6 +3,7 @@ if(isset($_GET["id"]))
 {
   $id = $_GET["id"];
   $stmt2 = Datos::getProductoID($id);
+  //Se o
   $stmt3 = Datos::getProductoID($id);
   $stmt4 = Datos::getProductoCategoriaID($id);
   $stmt5 = Datos::getCategorias();

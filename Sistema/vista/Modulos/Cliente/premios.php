@@ -1,5 +1,6 @@
 <?php
 $stmt2 = Datos::getMisPremiosObtenidos();
+//Se obtienen los premios obtenidos
 
 ?>
 <div class="col-md-12">

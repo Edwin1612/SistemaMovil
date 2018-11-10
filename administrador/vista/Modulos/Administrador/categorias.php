@@ -1,7 +1,7 @@
 <?php
 $stmt = Datos::vista_promocion();
 $stmt2 = Datos::getPremios();
-//Se piden todas las categorias por el metodo getCategorias
+//Se piden todas las categorias por el metodo getpremios
 $registro = new MvcControlador();
 //se invoca la funcion registrousuariocontroller de la clase mvccontroller;
 $resultado= $registro ->AddPromocion();
