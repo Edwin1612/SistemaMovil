@@ -3,9 +3,9 @@ $registro = new MvcControlador();
 
 //se invoca la funcion registrousuariocontroller de la clase mvccontroller;
 $resultado= $registro ->activarPremio();
-//se espera la reacion para el controlador activar premio
+//se espera la reacion para el controlador activar premio, esto para cambiar de estad a los premios de 0 a 1
 $resultado2= $registro ->activarPromocion();
-//Se espera la reacion para el controlador activar promocion
+//Se espera la reacion para el controlador activar promocion, esto para cambiar de estad a las promociones de 0 a 1
 
 
 ?>
